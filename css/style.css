@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada">
+        <meta charset="utf-8">
+        <title>Chris Hani</title>
+        <style>
+        html{
+            font-family:'arial';
+        }
+        
+        body{
+            background-color: turquoise;
+        }
+        div.a{
+            text-align: right
+        }
+        .block{
+            background-color: rgb(153, 157, 161);
+            width:100%;
+            hight:20px;
+        }
+        @media screen and (max-width:960px){
+            body{
+                background-color: turquoise;
+            }
+        }
+        @media screen and (max-width:890px){
+            body{
+                background-color: pink;
+            }
+        }
+        @media screen and (max-width:670px){
+            body{
+                background-color: red;
+            }
+        }
+.hide{
+    display:none;
+}
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:purple;
+   color: white;
+   text-align: left;
+}
+ 
+  .content{
+      width:50%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orchid;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:orchid;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+    </head>
+    
+
+  
+</html> 
