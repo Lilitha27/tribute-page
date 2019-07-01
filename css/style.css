@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="eng">
+
 
     <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada">
+    
         <meta charset="utf-8">
         <title>Chris Hani</title>
-        <style>
+        </head>
+      
         html{
             font-family:'arial';
         }
@@ -39,7 +39,7 @@
 .hide{
     display:none;
 }
-<style>
+
 .footer {
    position: fixed;
    left: 0;
@@ -50,39 +50,44 @@
    text-align: left;
 }
  
-  .content{
-      width:50%;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: orchid;
+  
+ 
+nav li{
+    display: inline-block;
+    padding: 10px 40px;
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color:orchid;
-}
-
-.active {
-  background-color: #4CAF50;
+nav{ margin: 0%;
+    padding: 0%;
+    height: 60px;
+    width: 100% auto;
+    text-align: center;
+    color: black;
+    list-style:none;
+    list-style-type: georgian;
 }
 </style>
-    </head>
-    
 
-  
-</html> 
+
+
+p{color: black;
+font-size: 24px;
+}  
+ul{color: black;
+font-size: 20px;
+}
+
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: gray;
+}
+ h2{
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: gray;
+ }
+ 
