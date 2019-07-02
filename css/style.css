@@ -5,17 +5,13 @@
         <meta charset="utf-8">
         <title>Chris Hani</title>
         </head>
-      
-        html{
-            font-family:'arial';
-        }
-        
+        <style>
+
+   {}
         body{
             background-color: turquoise;
         }
-        div.a{
-            text-align: right
-        }
+        
         .block{
             background-color: rgb(153, 157, 161);
             width:100%;
@@ -90,4 +86,7 @@ h1{
     border-right-width: 10px;
     border-color: gray;
  }
- 
+ body {
+    font-family: 'Galada';font-size: 22px;
+}
+</style>
